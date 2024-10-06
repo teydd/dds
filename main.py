@@ -1,5 +1,4 @@
 import cv2
-# param draw: Flag to draw the output on the image. :return: Image with or without drawings
 import pygame
 from cvzone.FaceMeshModule import FaceMeshDetector  # Finds face landmarks in BGR Image:param img: Image to find the face landmarks in.
 
