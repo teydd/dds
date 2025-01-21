@@ -45,11 +45,11 @@ while True:
             cv2.putText(img, "YOU ARE SLEEPY", (20, 200),
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
             print('Drowsy')
-            pygame.mixer.music.play(3)
+            pygame.mixer.music.play()
 
 
         print(ratio)
 
-    img = cv2.resize(img, (500, 360))
-    cv2.imshow("video", img)
-    cv2.waitKey(1)
+    img = cv2.resize(img, (700, 700))
+    cv2.imshow("DRIVER DROWSINESS DETECTION SYSTEM", img)
+    cv2.waitKey(3)
